@@ -1,2 +1,3 @@
 #!/bin/bash
-getent passwd | head -n 4
+grep -A 3 root /etc/passwd
+chmod u+x 16-whatsnext
